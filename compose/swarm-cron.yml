@@ -6,7 +6,7 @@ services:
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
     environment:
-      - "TZ=Asia/Kolkata"
+      - "TZ=Africa/Johannesburg"
       - "LOG_LEVEL=info"
       - "LOG_JSON=false"
     deploy:
